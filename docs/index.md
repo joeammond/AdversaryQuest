@@ -1,9 +1,11 @@
 # CrowdStrike's [**Adversary Quest**](https://adversary.zone/) CTF
 
-CrowdStrike's Adversary Quest CTF ran from January 18th to January 28th and featured a
-variety of challenges, from OSINT to binary exploitation. The CTF covered three
+CrowdStrike's Adversary Quest CTF ran from January 18th to January 28th and featured
+a variety of challenges, from OSINT to binary exploitation. The CTF covered three
 adversaries, each with 4 challenges. I'll cover the five challenges I managed to solve in
-this writeup. The source to this write up, including scripts, is on my github.
+this writeup. The [source](https://github.com/joeammond/AdversaryQuest) to this write up,
+including [scripts](https://github.com/joeammond/AdversaryQuest/tree/main/docs/scripts),
+is on [my github](https://github.com/joeammond).
 
 The adversaries are:
 
