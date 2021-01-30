@@ -1,0 +1,37 @@
+site_name: CrowdStrike Adversary Quest CTF writeup
+site_author: Joe Ammond (pugpug)
+copyright: Joe Ammond - <a href="http://twitter.com/joeammond">@joeammond</a>
+markdown_extensions:
+  - pymdownx.highlight
+  - pymdownx.superfences
+  - pymdownx.inlinehilite
+  - footnotes
+  - attr_list
+  - admonition
+  - toc:
+      permalink: "#"
+theme:
+  name: material
+plugins:
+  - search
+  - pdf-export:
+      enabled_if_env: ENABLE_PDF_EXPORT
+extra:
+  social:
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/joeammond
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/joeammond/
+    - icon: fontawesome/brands/github
+      link: https://github.com/joeammond
+extra_css:
+  - css/print.css
+nav:
+- Home: 'http://ammond.org'
+- Introduction: 'index.md'
+- Space Jackal - The Proclamation: 'SpaceJackal/the-proclamation.md'
+- Space Jackal - Matrix: 'SpaceJackal/matrix.md'
+- Space Jackal - Injector: 'SpaceJackal/injector.md'
+- Catapult Spider - Much Sad: 'CatapultSpider/muchsad.md'
+- Catapult Spider - Very Protocol: 'CatapultSpider/veryprotocol.md'
+- Conclusion: 'conclusion.md'
